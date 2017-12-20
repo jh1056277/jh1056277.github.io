@@ -1,0 +1,210 @@
+.header {
+	height: 573px;
+	background: url('http://travellrsapp.com/imgs/bg.png') no-repeat;
+	background-position: center;
+	background-size: 110% auto;
+	overflow: hidden;
+	padding-top: 77px;
+	color: #fff;
+}
+
+.i {
+	width: 300px;
+	float: left;
+	margin-left: -150px;
+    margin-top: 20px;
+}
+.g {
+	width: 327px;
+	float: left;
+}
+
+h1 , h2, .title{
+    font-weight: 300;
+}
+
+h2 {
+    color: #444;
+}
+
+.info p, .thanks h2, .text {
+	color: #444;
+}
+
+.info img { 
+	width: 100px;
+	opacity: .7;
+}
+
+.header .logo {
+	width: 175px;
+	margin-bottom: 60px;
+}
+.store-container {
+	margin-top: 34px;
+}
+
+.btn-start-explore {
+	background: #39daa3;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 18px;
+	border-radius: 60px;
+	width: 320px;
+	border: none;
+}
+
+.spacing-margin {
+	margin-top: 47px;
+	margin-bottom: 47px;
+}
+
+.nomargin {
+	margin: 0;
+}
+
+.about {
+	color: #fff;
+	margin: 0;
+	background: #2b282c;
+	padding: 50px;
+}
+
+.about div {
+    width: 60%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	text-align: left;
+}
+
+li .title {
+	margin-bottom: 30px; 
+}
+
+.thanks {
+	padding: 25px 0px;
+}
+
+.contact {
+    padding: 25px 0px;
+}
+
+.form-control { 
+	margin-top: 10px;
+	display: initial; 
+}
+
+.btn-register {
+	background: #39daa3;
+	color: #fff;
+	border: none;
+    text-transform: uppercase;
+    padding: 7px;
+    border-radius: 5px;
+	margin-top: 10px;
+	width: 100px;
+
+}
+
+.footer {
+	height: 50px;
+	background: #3b3e4a;
+	margin-top: 38px;
+	text-align: center;
+	color: #afafaf;
+	padding: 18px;
+}
+
+
+@media screen and (max-width: 1224px) {
+
+	.g {
+	    width: 287px;
+	    float: left;
+	    margin-top: 70px;
+	    margin-left: 53px;
+	}
+
+	.i {
+	    width: 270px;
+	    float: left;
+	    margin-left: -150px;
+	    margin-top: 100px;
+	}
+}
+
+@media screen and (max-width: 957px) {
+	.info img { 
+		width: 60px;
+	}
+	.header {
+		background-size: cover;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	.about {
+    	padding: 50px 0;
+	}
+
+	.about div {
+		width: 90%;
+	}
+
+	.header .logo {
+		margin-bottom: 0px;
+	}
+
+	.store-container img {
+		width: 100px;
+	}
+
+	.g {
+	    width: 207px;
+	    float: left;
+	    margin-top: 10px;
+	    margin-left: 50%;
+	}
+
+	.i {
+	    width: 180px;
+	    float: left;
+	    margin-left: -130px;
+	    margin-top: 60px;
+	}
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+	.g {
+	    margin-left: 25%;
+	}
+
+
+}
+
+
+@media screen and (max-width: 440px) {
+
+	.header {
+		height: 463px;
+		padding-top: 30px;
+	}
+
+	.g ,.i {
+	   display: none;
+	}
+
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.html">
+
+    <title>Travellrs</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script>
+        var startExplore = function(){
+            if(navigator.userAgent.match('iPhone|iPad')){
+                window.open('https://itunes.apple.com/us/app/travellrs/id1212144532?l=pt&amp;ls=1&amp;mt=8', '_blank');
+            }else{
+                window.open('https://play.google.com/store/apps/details?id=com.travellrs.app', '_blank');
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+
+<div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="imgs/logo.png" class="logo" alt=""/>
+                <h1>Never travel alone again</h1>
+                <p>Did you ever wanted to travel to somewhere new but your friends coun't go with you? Or go to a rock
+                    concert or an event outside your city but you would need to go alone? Well, now you can find
+                    travellers around the world that is going to the same place as you! This makes your trip way cheaper
+                    and fun at the same time.<br/>Start exploring now! </p>
+                <div class="store-container">
+                    <a href="https://play.google.com/store/apps/details?id=com.travellrs.app" target="_blank"><img
+                            src="imgs/btngoogle.png" alt="Dowload at google play"/></a>
+                    <a href="https://itunes.apple.com/us/app/travellrs/id1212144532?l=pt&amp;ls=1&amp;mt=8" target="_blank"><img
+                            src="imgs/btnapple.png" alt="Dowload at apple store"/></a>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <img src="imgs/g.png" class="g" alt="Dowload at google play">
+                <img src="imgs/i.png" class="i" alt="Dowload at google play">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row info spacing-margin">
+        <div class="col-sm-4" align="center">
+            <img src="imgs/infoa.png">
+            <h2>Hangout with new friends</h2>
+            <p>You say when and where you want to go and Travellrs find nice people for you. Even if you want to go out
+                tonight</p>
+        </div>
+        <div class="col-sm-4" align="center">
+            <img src="imgs/infob.png">
+            <h2>Travel together</h2>
+            <p>Join travellers around the world. You will find new partners who shares the same spirit and also find
+                more reasons to go out and explore the world</p>
+        </div>
+        <div class="col-sm-4" align="center">
+            <img src="imgs/infoc.png">
+            <h2>Explore with new friends</h2>
+            <p>There’s so much beauty in the outdoors and we city folk rarely get the chance to appreciate it. Now you
+                can do it more often with new travellrs</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 explore-container spacing-margin" align="center">
+            <button class="btn-start-explore" onclick="startExplore();">Start exploring</button>
+        </div>
+    </div>
+</div>
+
+<div class="row about spacing-margin">
+    <div align="center">
+        <h1>About Travellrs</h1>
+        <p>Travellrs is a company that imagines an world where people could transform their trip into a great and a
+            remarkable moment by joining others travellers around the world and sharing awesome time together. With
+            Travellrs you won't need to travel alone again.</p>
+    </div>
+</div>
+
+<div class="container  spacing-margin">
+
+    <div class="row nomargin thanks">
+        <div class="col-sm-12" align="center">
+            <h2>Thanks for visiting us</h2>
+        </div>
+    </div>
+
+
+    <div class="row nomargin contact">
+        <div class="col-sm-4" align="center">
+            <ul>
+                <li class="title"><h2 class="title">Contact us</h2></li>
+                <li> Belo Horizonte, Brazil</li>
+                <li> +55 31 98731-4043</li>
+                <li> <a href="mailto:info@travellrsapp.me" target="_blank">info@travellrsapp.me</a>
+                </li>
+                <li> <a href="https://www.facebook.com/travellrsapp"
+                                                             target="_blank">@travellrsapp</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4" align="center">
+            <ul>
+                <li class="title"><h2 class="title">Beta</h2></li>
+                <li class="text">Get your private Beta invite now. Mail us to receive a invitation. If you want to test
+                    Travellrs on your iphone inform us your Apple ID.
+                    <a href="mailto:info@travellrsapp.me" target="_blank">info@travellrsapp.me</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4" align="center">
+            <ul>
+                <li><h2 class="title">Support us</h2></li>
+                <li class="text">Our platform is totally FREE. We won't try to make you buy vip access or charge you for
+                    using the app or even to chat with others travellers. Our intention is to transform your trip into a
+                    remarkable moment. So help us by sharing this app with your friends and on your social networks.
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    2017 © Travellrs.
+</div>
+
+</body>
+</html>
